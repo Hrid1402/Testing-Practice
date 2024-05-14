@@ -1,4 +1,4 @@
-import {cipher} from '../src/caesarCipher';
+import {cipher} from '../src/caesarCipher.js';
 
 test("Key 2", () => {
   expect(cipher("hello everyone", 2)).toBe("jgnnq gxgtaqpg");
