@@ -12,3 +12,9 @@ test("min", () => {
 test("max", () => {
   expect(analyzeArray([1, 8, 3, 4, 2, 6]).max).toBe(8);
 });
+test("length", () => {
+  expect(analyzeArray([1, 8, 3, 4, 2, 6, 7, 10]).length).toBe(8);
+});
+test("length", () => {
+  expect(analyzeArray([]).length).toBe(0);
+});
